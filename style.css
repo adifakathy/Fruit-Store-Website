@@ -357,6 +357,8 @@ section.top-products .food-slider .food-card button:hover {
   background-image: url(icons/shadow-sm.svg);
   bottom: -20px;
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   background-repeat: no-repeat;
   z-index: -1;
   background-position: center;
@@ -382,3 +384,83 @@ section.about-meal p {
   margin-bottom: 4rem;
 }
 /* comment */
+section.our-services{
+  background: var(--light);
+  position: relative;
+  z-index: 0;
+}
+section.our-services .card-wrapper{
+  margin-right: -2rem;
+  margin-top: 8rem;
+
+}
+section.our-services .service-card{
+  background: var(--heaven);
+  text-align: center;
+  padding: 2rem;
+  padding-top: 4rem;
+  margin-right: 2rem;
+  position: relative;
+  border-radius: 4px;
+}
+section.our-services .service-card .icon{
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+section.our-services .service-card h2{
+  font-family: "Raleway-bold";
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+section.our-services .service-card p{
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.text-primary{
+  color: var(--primary);
+}
+section.big-deal{
+  background: linear-gradient(
+    rgba(35,43,56,0.9),
+    rgba(35,43,56,0.9)), url(images/food-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    
+}
+section.big-deal .timer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -2rem;
+  margin-bottom: 2rem;
+
+}
+section.big-deal .timer div{
+  margin-right: 2rem;
+  background: var(--primary);
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.big-deal .timer div span:first-child{
+  font-family: "Raleway-semibold";
+  font-size: 2.5rem;
+  color: var(--heaven);
+  margin-bottom: 0.05rem;  
+}
+section.big-deal .timer div span:last-child{
+  font-family: "Raleway-medium";
+  color: var(--heaven);
+}
+.text-pure{
+  color: var(--pure);
+}
