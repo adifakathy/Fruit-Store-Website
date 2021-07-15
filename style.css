@@ -597,6 +597,81 @@ section.contact-us .contact-info > div > div >div{
 section.contact-us .contact-info > div > div >div span:first-child{
   font-family: "raleway-bold";
   margin-bottom: 0.25rem;
+}
+/* footer */
 
 
+footer{
+  background: var(--footer);
+  padding: 4rem 0;
+}
+footer .container{
+  display: flex;
+  color: var(--pure);
+}
+
+footer .box{
+  flex: 1;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+footer .instagram-api img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer .instagram-api .post-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px; 
+}
+footer .box ul{
+  list-style-type: none;
+}
+footer .box ul li a{
+  text-decoration: none;
+  color: var(--pure);
+}
+footer .box ul li a:hover{
+  color: var(--primary);
+  transition: all 0.3s ease;
+}
+footer .box h3{
+  border-bottom: 1px solid var(--primary);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+footer .box p{
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+footer .box ul li{
+  margin-bottom: 1rem;
+}
+footer .box:nth-child(3) > div {
+  display:flex;
+  justify-content: center;
+}
+footer .box:nth-child(3){
+  text-align: left;
+}
+footer .box:nth-child(3) h3{
+  text-align: center;
+}
+footer .box:nth-child(3) > div img{
+  margin-right:1rem;
+}
+footer .box:nth-child(3) ul li{
+  margin-bottom:1.5rem;
+}
+
+footer.copyright{
+  color: var(--pure);
+  background: var(--seconday);
+  text-align: center;
+  padding: 2rem 0;
+}
+footer.copyright > div span{
+  color: var(--primary);
 }
